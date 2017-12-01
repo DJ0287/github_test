@@ -1,0 +1,36 @@
+﻿Variable name,Description,Setting value,lower limit,upper limit
+CSI,Csi�FTin replenishing inlet O2 concentration(ppm),7,0.1,7
+mu1,mu�FDissolved oxygen efficiency(Nm3/min),0.9,0.01,1
+mu2,mu�FDissolved oxygen efficiency(Nm3/min),0.9,0.01,1
+mu3,mu�FDissolved oxygen efficiency(Nm3/min),0.9,0.01,1
+mu4,mu�FDissolved oxygen efficiency(Nm3/min),0.9,0.01,1
+mu5,mu�FDissolved oxygen efficiency(Nm3/min),0.9,0.01,1
+mu6,mu�FDissolved oxygen efficiency(Nm3/min),0.9,0.01,1
+mu7,mu�FDissolved oxygen efficiency(Nm3/min),0.9,0.01,1
+mu8,mu�FDissolved oxygen efficiency(Nm3/min),0.9,0.01,1
+mu9,mu�FDissolved oxygen efficiency(Nm3/min),0.9,0.01,1
+mu10,mu�FDissolved oxygen efficiency(Nm3/min),0.9,0.01,1
+mu11,mu�FDissolved oxygen efficiency(Nm3/min),0.9,0.01,1
+FASET,Fa�FFlow rate of outside(schedule only) :Faset(m3/min),2,0,10
+FBSET,Fb�FTin replenishing self cir. flow rate(m3/min),5,0,10
+a1,a1�FO2 flow rate when dissolved oxygen efficiency is ��(Nm3/min),0.01,0,2
+a2,a2�FSlope of dissolved oxygen efficiency curve,0,-1,1
+TC1,��c1�FCorrection time(min),60,0.1,60
+CAdH,CAdH�FConc. deviation value(H) (g/l),29.5,24,45
+alpha1,alpha1,1,0,1
+TC2,��c2�FCorrection time(min),30,0.1,60
+CAH,CAH�FConc. deviation value(HH) (g/l),31,24,45
+alpha2,alpha2,1,0,1
+TC3,��c3�FCorrection time(min),60,0.1,60
+CAdL,CAdL�FConc. deviation value(L) (g/l),26.5,18,45
+alpha3,alpha3,1,0,1
+TC4,��c4�FCorrection time(min),30,0.1,60
+CAL,CAL�FConc. deviation value(LL) (g/l),25,16,45
+alpha4,alpha4,1,0,1
+COIL_WEIGHT,,0,0,0
+SLS_alpha,: Adjust parameter,1.00,0.01,9.99
+SLS_So,So: Initial concentration,12.3,0.1,99.9
+SLS_V,V fixed value,10.0,0.1,99.9
+SLS_taue,,5,0,9
+SLS_Tp,,60,0,999
+SLS_Tc,,30,0,99

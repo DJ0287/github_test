@@ -1,0 +1,221 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+ETL_SRS_STP
+</name>
+</assembly>
+<members>
+<member name="T:ETL_SRS_STP.My.Resources.Resources">
+<summary>
+  ローカライズされた文字列などを検索するための、厳密に型指定されたリソース クラスです。
+</summary>
+</member>
+<member name="P:ETL_SRS_STP.My.Resources.Resources.ResourceManager">
+<summary>
+  このクラスで使用されているキャッシュされた ResourceManager インスタンスを返します。
+</summary>
+</member>
+<member name="P:ETL_SRS_STP.My.Resources.Resources.Culture">
+<summary>
+  厳密に型指定されたこのリソース クラスを使用して、すべての検索リソースに対し、
+  現在のスレッドの CurrentUICulture プロパティをオーバーライドします。
+</summary>
+</member>
+<member name="P:ETL_SRS_STP.My.Resources.Resources.Alm">
+<summary>
+  (アイコン) に類似した型 System.Drawing.Icon のローカライズされたリソースを検索します。
+</summary>
+</member>
+<member name="P:ETL_SRS_STP.My.Resources.Resources.AlmRec">
+<summary>
+  (アイコン) に類似した型 System.Drawing.Icon のローカライズされたリソースを検索します。
+</summary>
+</member>
+<member name="P:ETL_SRS_STP.My.Resources.Resources.arrow_down_black">
+<summary>
+  型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+</summary>
+</member>
+<member name="P:ETL_SRS_STP.My.Resources.Resources.arrow_down_green">
+<summary>
+  型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+</summary>
+</member>
+<member name="P:ETL_SRS_STP.My.Resources.Resources.arrow_down_red">
+<summary>
+  型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+</summary>
+</member>
+<member name="P:ETL_SRS_STP.My.Resources.Resources.arrow_left_black">
+<summary>
+  型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+</summary>
+</member>
+<member name="P:ETL_SRS_STP.My.Resources.Resources.arrow_left_green">
+<summary>
+  型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+</summary>
+</member>
+<member name="P:ETL_SRS_STP.My.Resources.Resources.arrow_left_red">
+<summary>
+  型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+</summary>
+</member>
+<member name="P:ETL_SRS_STP.My.Resources.Resources.arrow_right_black">
+<summary>
+  型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+</summary>
+</member>
+<member name="P:ETL_SRS_STP.My.Resources.Resources.arrow_right_green">
+<summary>
+  型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+</summary>
+</member>
+<member name="P:ETL_SRS_STP.My.Resources.Resources.arrow_right_red">
+<summary>
+  型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+</summary>
+</member>
+<member name="P:ETL_SRS_STP.My.Resources.Resources.arrow_up_black">
+<summary>
+  型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+</summary>
+</member>
+<member name="P:ETL_SRS_STP.My.Resources.Resources.arrow_up_green">
+<summary>
+  型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+</summary>
+</member>
+<member name="P:ETL_SRS_STP.My.Resources.Resources.arrow_up_red">
+<summary>
+  型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+</summary>
+</member>
+<member name="P:ETL_SRS_STP.My.Resources.Resources.Calc">
+<summary>
+  (アイコン) に類似した型 System.Drawing.Icon のローカライズされたリソースを検索します。
+</summary>
+</member>
+<member name="P:ETL_SRS_STP.My.Resources.Resources.cv_green">
+<summary>
+  型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+</summary>
+</member>
+<member name="P:ETL_SRS_STP.My.Resources.Resources.cv_green_Rot">
+<summary>
+  型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+</summary>
+</member>
+<member name="P:ETL_SRS_STP.My.Resources.Resources.cv_red">
+<summary>
+  型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+</summary>
+</member>
+<member name="P:ETL_SRS_STP.My.Resources.Resources.cv_red_Rot">
+<summary>
+  型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+</summary>
+</member>
+<member name="P:ETL_SRS_STP.My.Resources.Resources.DissSchG">
+<summary>
+  (アイコン) に類似した型 System.Drawing.Icon のローカライズされたリソースを検索します。
+</summary>
+</member>
+<member name="P:ETL_SRS_STP.My.Resources.Resources.Itlk">
+<summary>
+  (アイコン) に類似した型 System.Drawing.Icon のローカライズされたリソースを検索します。
+</summary>
+</member>
+<member name="P:ETL_SRS_STP.My.Resources.Resources.Lmin_Bold">
+<summary>
+  型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+</summary>
+</member>
+<member name="P:ETL_SRS_STP.My.Resources.Resources.m3_Bold">
+<summary>
+  型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+</summary>
+</member>
+<member name="P:ETL_SRS_STP.My.Resources.Resources.m3min_Bold">
+<summary>
+  型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+</summary>
+</member>
+<member name="P:ETL_SRS_STP.My.Resources.Resources.Nm3min">
+<summary>
+  型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+</summary>
+</member>
+<member name="P:ETL_SRS_STP.My.Resources.Resources.Nm3min_Bold">
+<summary>
+  型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+</summary>
+</member>
+<member name="P:ETL_SRS_STP.My.Resources.Resources.NSENGI_LOGO">
+<summary>
+  型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+</summary>
+</member>
+<member name="P:ETL_SRS_STP.My.Resources.Resources.O2SchG">
+<summary>
+  (アイコン) に類似した型 System.Drawing.Icon のローカライズされたリソースを検索します。
+</summary>
+</member>
+<member name="P:ETL_SRS_STP.My.Resources.Resources.O2TrdG">
+<summary>
+  (アイコン) に類似した型 System.Drawing.Icon のローカライズされたリソースを検索します。
+</summary>
+</member>
+<member name="P:ETL_SRS_STP.My.Resources.Resources.OV">
+<summary>
+  (アイコン) に類似した型 System.Drawing.Icon のローカライズされたリソースを検索します。
+</summary>
+</member>
+<member name="P:ETL_SRS_STP.My.Resources.Resources.Para">
+<summary>
+  (アイコン) に類似した型 System.Drawing.Icon のローカライズされたリソースを検索します。
+</summary>
+</member>
+<member name="P:ETL_SRS_STP.My.Resources.Resources.ProdSch">
+<summary>
+  (アイコン) に類似した型 System.Drawing.Icon のローカライズされたリソースを検索します。
+</summary>
+</member>
+<member name="P:ETL_SRS_STP.My.Resources.Resources.pump_green">
+<summary>
+  型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+</summary>
+</member>
+<member name="P:ETL_SRS_STP.My.Resources.Resources.pump_red">
+<summary>
+  型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+</summary>
+</member>
+<member name="P:ETL_SRS_STP.My.Resources.Resources.SiddSch">
+<summary>
+  (アイコン) に類似した型 System.Drawing.Icon のローカライズされたリソースを検索します。
+</summary>
+</member>
+<member name="P:ETL_SRS_STP.My.Resources.Resources.sv_green">
+<summary>
+  型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+</summary>
+</member>
+<member name="P:ETL_SRS_STP.My.Resources.Resources.sv_red">
+<summary>
+  型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+</summary>
+</member>
+<member name="P:ETL_SRS_STP.My.Resources.Resources.Trans">
+<summary>
+  (アイコン) に類似した型 System.Drawing.Icon のローカライズされたリソースを検索します。
+</summary>
+</member>
+<member name="P:ETL_SRS_STP.My.Resources.Resources.trens">
+<summary>
+  (アイコン) に類似した型 System.Drawing.Icon のローカライズされたリソースを検索します。
+</summary>
+</member>
+</members>
+</doc>

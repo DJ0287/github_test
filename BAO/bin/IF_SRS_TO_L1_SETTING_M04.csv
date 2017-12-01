@@ -1,0 +1,11 @@
+No.,NAME OF SIGNAL,Type,Size,Unit,LOWER LIMIT/UPPER LIMIT,,‚q‚d‚l‚`‚q‚j
+1,Sub Header,Integer,2,,,,
+2,Data Length,Integer,2,,,,
+3,Message No.,Integer32,4,,,,
+4,Sequence No.,Character,4,,,,
+5,Transmission Time,Character,6,,,,
+6,Spare,Byte,2,,,,
+7,FIC-1311 SV,Integer,2,0.1,0,10000,"Oxygen flow controller FIC-1311-1,2"
+8,Starting Condition Conclusion,Integer,2,0,1,,
+9,Running Condition Conclusion,Integer,2,0,1,,
+10,Spare,Byte,38,,,,
