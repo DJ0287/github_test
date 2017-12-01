@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<Chart2DPropBag Version="2.0.20142.24182">
+  <StyleCollection>
+    <NamedStyle Name="LabelStyleDefault.default" ParentName="Control" StyleData="BackColor=Transparent;Border=None,Transparent,1;" />
+    <NamedStyle Name="Legend" ParentName="Legend.default" StyleData="Border=None,Transparent,2;Font=Arial, 9pt;" />
+    <NamedStyle Name="Area" ParentName="Area.default" StyleData="Border=None,Transparent,2;" />
+    <NamedStyle Name="Control" ParentName="Control.default" StyleData="BackColor=White;Border=None,Transparent,2;ForeColor=Black;" />
+    <NamedStyle Name="Header" ParentName="Control" StyleData="Border=None,Transparent,2;Font=メイリオ, 12pt, style=Bold;" />
+    <NamedStyle Name="Legend.default" ParentName="Control" StyleData="AlignVert=Top;Border=None,Transparent,1;Wrap=False;" />
+    <NamedStyle Name="AxisY2" ParentName="Area" StyleData="AlignHorz=Far;AlignVert=Center;Font=Arial, 9pt;Rotation=Rotate90;" />
+    <NamedStyle Name="Footer" ParentName="Control" StyleData="Border=None,Transparent,2;Font=Arial, 9pt;" />
+    <NamedStyle Name="Control.default" ParentName="" StyleData="BackColor=Control;Border=None,Transparent,1;ForeColor=ControlText;" />
+    <NamedStyle Name="LabelStyleDefault" ParentName="LabelStyleDefault.default" />
+    <NamedStyle Name="Area.default" ParentName="Control" StyleData="AlignVert=Top;Border=None,Transparent,1;" />
+    <NamedStyle Name="PlotArea" ParentName="Area" StyleData="Border=None,Black,1;" />
+    <NamedStyle Name="AxisY" ParentName="Area" StyleData="AlignHorz=Near;AlignVert=Center;Font=Arial, 9pt;Rotation=Rotate270;" />
+    <NamedStyle Name="AxisX" ParentName="Area" StyleData="AlignHorz=Center;AlignVert=Bottom;Font=Arial, 9pt;ForeColor=Black;Rotation=Rotate0;" />
+  </StyleCollection>
+  <ChartGroupsCollection>
+    <ChartGroup Name="Group1" ChartType="Area" Use3D="False">
+      <DataSerializer Hole="-999">
+        <DataSeriesCollection>
+          <DataSeriesSerializer>
+            <LineStyle Color="Blue" />
+            <SymbolStyle Size="7" Color="Fuchsia" Shape="Tri" />
+            <SeriesLabel>series 0</SeriesLabel>
+            <LegendEntry>False</LegendEntry>
+            <X>0;900</X>
+            <Y>500;500</Y>
+            <DataTypes>Double;Double;Double;Double;Double</DataTypes>
+            <FillStyle />
+            <Histogram />
+          </DataSeriesSerializer>
+        </DataSeriesCollection>
+        <Highlight />
+      </DataSerializer>
+    </ChartGroup>
+    <ChartGroup Name="Group2">
+      <DataSerializer Hole="1E+308">
+        <Highlight />
+      </DataSerializer>
+    </ChartGroup>
+  </ChartGroupsCollection>
+  <Header Compass="North" LocationDefault="430, 12">
+    <Text>酸素吹込スケジュール</Text>
+  </Header>
+  <Footer Compass="South" />
+  <Legend Compass="East" Visible="False" Orientation="Vertical" />
+  <ChartArea LocationDefault="-1, -1" SizeDefault="-1, -1" PlotLocation="-1, -1" PlotSize="-1, -1">
+    <Margin />
+  </ChartArea>
+  <Axes>
+    <Axis Max="1440" Min="0" Thickness="1" UnitMajor="100" UnitMinor="50" AutoMajor="True" AutoMinor="True" AutoMax="False" AutoMin="False" _onTop="1" Compass="South">
+      <Text>時間(min)</Text>
+      <GridMajor Visible="True" Spacing="25" AutoSpace="False">
+        <Color>Black</Color>
+        <Pattern>Dot</Pattern>
+      </GridMajor>
+    </Axis>
+    <Axis Max="2" Min="0" Thickness="1" UnitMajor="0.5" UnitMinor="0.25" AutoMajor="True" AutoMinor="True" AutoMax="False" AutoMin="False" Compass="West">
+      <Text>O2(Nm3/min)</Text>
+      <GridMajor Visible="True" Spacing="0.5" AutoSpace="False">
+        <Color>Black</Color>
+        <Pattern>Dot</Pattern>
+      </GridMajor>
+    </Axis>
+    <Axis Max="NaN" Min="NaN" Thickness="1" UnitMajor="NaN" UnitMinor="NaN" AutoMajor="True" AutoMinor="True" AutoMax="True" AutoMin="True" Compass="East" />
+  </Axes>
+  <AutoLabelArrangement />
+  <VisualEffectsData>45,1,0.6,0.1,0.5,0.9,0,0,0.15,0,0,1,0.5,-25,0,0,0,1,64,1;Group1=45,1,0.6,0.1,0.5,0.9,0,0,0.15,0,0,1,0.5,-25,0,0,0,1,64,1;Group0=45,1,0.6,0.1,0.5,0.9,0,0,0.15,0,0,1,0.5,-25,0,0,0,1,64,1</VisualEffectsData>
+</Chart2DPropBag>
