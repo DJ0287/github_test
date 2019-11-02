@@ -1,0 +1,69 @@
+No.,NAME OF SIGNAL,Type,Size,Unit,LOWER LIMIT/UPPER LIMIT,,ÇqÇdÇlÇ`ÇqÇj
+1,Sub Header,Integer,2,,,,
+2,Data length,Integer,2,,,,
+3,Message No.,Integer32,4,,,,
+4,Sequence No.,Character,4,,,,
+5,Transmission Time,Character,6,,,,
+6,Spare1,Byte,2,,,,
+7,Number of Total Coil,Integer,2,,1,20,
+8,Coil No.11,Character,22,,********,********,1st coil
+9,Weight of one Coil11,Integer,2,0.001,1,32000,1st coil
+10,Strip Thickness11,Integer,2,0.001,1,1000,1st coil
+11,Strip Width11,Integer,2,1,1,1500,1st coil
+12,PlatingÅiTotal of both side)11,Integer,2,0.1,1,300,1st coil
+13,Line Speed11,Integer,2,1,1,600,1st coil
+14,Coil No.12,Character,22,,********,********,2st coil
+15,Weight of one Coil12,Integer,2,0.001,1,32000,2st coil
+16,Strip Thickness12,Integer,2,0.001,1,1000,2st coil
+17,Strip Width12,Integer,2,1,1,1500,2st coil
+18,PlatingÅiTotal of both side)12,Integer,2,0.1,1,300,2st coil
+19,Line Speed12,Integer,2,1,1,600,2st coil
+20,Coil No.13,Character,22,,********,********,3st coil
+21,Weight of one Coil13,Integer,2,0.001,1,32000,3st coil
+22,Strip Thickness13,Integer,2,0.001,1,1000,3st coil
+23,Strip Width13,Integer,2,1,1,1500,3st coil
+24,PlatingÅiTotal of both side)13,Integer,2,0.1,1,300,3st coil
+25,Line Speed13,Integer,2,1,1,600,3st coil
+26,Coil No.14,Character,22,,********,********,4st coil
+27,Weight of one Coil14,Integer,2,0.001,1,32000,4st coil
+28,Strip Thickness14,Integer,2,0.001,1,1000,4st coil
+29,Strip Width14,Integer,2,1,1,1500,4st coil
+30,PlatingÅiTotal of both side)14,Integer,2,0.1,1,300,4st coil
+31,Line Speed14,Integer,2,1,1,600,4st coil
+32,Coil No.15,Character,22,,********,********,5st coil
+33,Weight of one Coil15,Integer,2,0.001,1,32000,5st coil
+34,Strip Thickness15,Integer,2,0.001,1,1000,5st coil
+35,Strip Width15,Integer,2,1,1,1500,5st coil
+36,PlatingÅiTotal of both side)15,Integer,2,0.1,1,300,5st coil
+37,Line Speed15,Integer,2,1,1,600,5st coil
+38,Coil No.16,Character,22,,********,********,6st coil
+39,Weight of one Coil16,Integer,2,0.001,1,32000,6st coil
+40,Strip Thickness16,Integer,2,0.001,1,1000,6st coil
+41,Strip Width16,Integer,2,1,1,1500,6st coil
+42,PlatingÅiTotal of both side)16,Integer,2,0.1,1,300,6st coil
+43,Line Speed16,Integer,2,1,1,600,6st coil
+44,Coil No.17,Character,22,,********,********,7st coil
+45,Weight of one Coil17,Integer,2,0.001,1,32000,7st coil
+46,Strip Thickness17,Integer,2,0.001,1,1000,7st coil
+47,Strip Width17,Integer,2,1,1,1500,7st coil
+48,PlatingÅiTotal of both side)17,Integer,2,0.1,1,300,7st coil
+49,Line Speed17,Integer,2,1,1,600,7st coil
+50,Coil No.18,Character,22,,********,********,8st coil
+51,Weight of one Coil18,Integer,2,0.001,1,32000,8st coil
+52,Strip Thickness18,Integer,2,0.001,1,1000,8st coil
+53,Strip Width18,Integer,2,1,1,1500,8st coil
+54,PlatingÅiTotal of both side)18,Integer,2,0.1,1,300,8st coil
+55,Line Speed18,Integer,2,1,1,600,8st coil
+56,Coil No.19,Character,22,,********,********,9st coil
+57,Weight of one Coil19,Integer,2,0.001,1,32000,9st coil
+58,Strip Thickness19,Integer,2,0.001,1,1000,9st coil
+59,Strip Width19,Integer,2,1,1,1500,9st coil
+60,PlatingÅiTotal of both side)19,Integer,2,0.1,1,300,9st coil
+61,Line Speed19,Integer,2,1,1,600,9st coil
+62,Coil No.20,Character,22,,********,********,10st coil
+63,Weight of one Coil20,Integer,2,0.001,1,32000,10st coil
+64,Strip Thickness20,Integer,2,0.001,1,1000,10st coil
+65,Strip Width20,Integer,2,1,1,1500,10st coil
+66,PlatingÅiTotal of both side)20,Integer,2,0.1,1,300,10st coil
+67,Line Speed20,Integer,2,1,1,600,10st coil
+68,Spare2,Byte,170,,,,

@@ -1,0 +1,5 @@
+変数名,項目,値,ダミー,ダミー
+SERVER_IPAddress,ホスト名(IPアドレス),127.0.0.1,0,0
+SERVER_PortNo,ホストポート,7700,0,0
+LISTENER_IPAddress,リスナー(IPアドレス),127.0.0.1,0,0
+LISTENER_PortNo,リッスンポート,7710,0,0

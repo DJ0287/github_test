@@ -1,0 +1,3 @@
+オフセット,変数名,項目,単位,下限,上限
+0,FIC311_CAS_ON,Starting Condition Conclusion,1,0,1
+1,FIC311_CAS_DRV,Running Condition Conclusion,1,0,1

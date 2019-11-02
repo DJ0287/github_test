@@ -1,0 +1,103 @@
+No.,NAME OF SIGNAL,Type,Size,Unit,,,ＲＥＭＡＲＫ
+1,Sub Header,Integer,2,,,,
+2,Data Length,Integer,2,,,,
+3,Message No.,Integer32,4,,,,
+4,Sequence No.,Character,4,,,,
+5,Transmission Time,Character,6,,,,
+6,Spare,Byte,8,,,,
+7,Running (PW-5-A or B),Integer,2,1,0,1,1：Either of two pump is running 
+8,Running (PC-12-A or B),Integer,2,1,0,1,1：Either of two pump is running 
+9,Running (PC-13-A or B),Integer,2,1,0,1,1：Either of two pump is running 
+10,Running (PC-4-A),Integer,2,1,0,1,1：Running
+11,Running (PC-21-A),Integer,2,1,0,1,1：Either of two pump is running 
+12,Running (PC-5-A or B),Integer,2,1,0,1,1：Either of two pump is running 
+13,Running (PC-6-A or B),Integer,2,1,0,1,1：Either of two pump is running 
+14,Running(PC-1-A),Integer,2,1,0,1,1: Running
+15,Running(PC-1-B),Integer,2,1,0,1,1: Running
+16,Running(PC-1-C),Integer,2,1,0,1,1: Running
+17,Running(PC-1-D),Integer,2,1,0,1,1: Running
+18,Running(PC-2-A),Integer,2,1,0,1,1: Running
+19,Running(PC-14-A or B),Integer,2,1,0,1,1: Running
+20,Spare,Byte,4,,,,
+21,XV-1305-1 Open,Integer,2,1,0,1,1：Open
+22,XV-1305-2 Open,Integer,2,1,0,1,1：Open
+23,XV-1308 Open,Integer,2,1,0,1,1：Open
+24,XV-1309 Open,Integer,2,1,0,1,1：Open
+25,XV-1311 Open,Integer,2,1,0,1,1：Open
+26,XV-1318 Open,Integer,2,1,0,1,1：Open
+27,XV-1322-1 Open,Integer,2,1,0,1,1：Open
+28,XV-1322-2 Open,Integer,2,1,0,1,1：Open
+29,XV-1326 Open,Integer,2,1,0,1,1：Open
+30,XV-1327 Open,Integer,2,1,0,1,1：Open
+31,XV-1328 Open,Integer,2,1,0,1,1：Open
+32,XV-1329 Open,Integer,2,1,0,1,1：Open
+33,XV-1341-1 Open,Integer,2,1,0,1,1：Open
+34,XV-1341-2 Open,Integer,2,1,0,1,1：Open
+35,XV-1393-1 Open,Integer,2,1,0,1,1：Open
+36,XV-1393-2 Open,Integer,2,1,0,1,1：Open
+37,XV-1392 Open,Integer,2,1,0,1,1：Open
+38,XV-1395 Open,Integer,2,1,0,1,1：Open
+39,XV-1338 Open,Integer,2,1,0,1,1：Open
+40,XV-1332 Open,Integer,2,1,0,1,1：Open
+41,XV-1334 Open,Integer,2,1,0,1,1：Open
+42,SV-1361 Open,Integer,2,1,0,1,1：Open
+43,SV-1362 Open,Integer,2,1,0,1,1：Open
+44,SV-1363 Open,Integer,2,1,0,1,1：Open
+45,SV-1364 Open,Integer,2,1,0,1,1：Open
+46,XV-1333 Open,Integer,2,1,0,1,1：Open
+47,Spare,Byte,4,,,,
+48,LCV-1340-1 MV,Integer,2,1,0,100,
+49,LCV-1340-2 MV,Integer,2,1,0,100,
+50,FCV-1311-1 MV,Integer,2,1,0,100,
+51,FCV-1311-2 MV,Integer,2,1,0,100,
+52,Spare,Byte,16,,,,
+53,"FIC-311 Control mode ""CAS"" ON",Integer,2,-,0,1,"1：FIC-1311-1 ""Auto / CAS"" mode and  "
+54,FIC-1311-1 PV,Integer,2,0.1,0,10000,
+55,FIC-1311-2 PV,Integer,2,0.1,0,2000,
+56,PIC-1312 PV,Integer,2,1,0,1200,
+57,PIA-1313 PV,Integer,2,0.1,0,5000,
+58,PIA-1314 PV,Integer,2,0.1,0,1000,
+59,FIA-1315 PV,Integer,2,0.01,0,700,
+60,TIA-1316 PV,Integer,2,0.1,0,1000,
+61,LIA-1317 PV,Integer,2,1,0,1000,
+62,LIA-1321 PV,Integer,2,1,0,1000,
+63,LIA-1340 PV,Integer,2,0.1,0,1000,
+64,LIA-1302 PV,Integer,2,0.1,0,1000,
+65,LIA-1391 PV,Integer,2,0.1,0,1000,
+66,LIA-1330 PV,Integer,2,0.1,0,1000,
+67,LIA-1304 PV,Integer,2,0.1,0,1000,
+68,LIA-1381 PV,Integer,2,0.1,0,1000,
+69,LT-W5 PV,Integer,2,1,0,3000,
+70,LT-W7 PV,Integer,2,1,0,3000,
+71,FI-1305-1 PV,Integer,2,0.1,0,3000,
+72,FI-1305-2 PV,Integer,2,0.1,0,1000,
+73,FI-1308 PV,Integer,2,0.1,0,1000,
+74,FI-1309 PV,Integer,2,0.1,0,1000,
+75,FI-1392 PV,Integer,2,0.1,0,200,
+76,FI-1393-1 PV ,Integer,2,0.1,0,1000,
+77,FI-1393-2 PV,Integer,2,0.1,0,1000,
+78,FI-1332 PV,Integer,2,0.1,0,200,
+79,FT-1338 PV,Integer,2,0.1,0,1000,
+80,XI-1332 PV,Integer,2,1,0,10000,
+81,XI-1335 PV,Integer,2,1,0,100,
+82,XI-1331 PV,Integer,2,0.1,0,500,
+83,XI-1365 PV,Integer,2,1,0,14,
+84,TI-1307-1 PV,Integer,2,1,0,100,
+85,Spare,Byte,10,,,,
+86,FEEDER / Actual Sn Load,Integer,2,1,0,6000,
+87,FEEDER / Auto Feeder Running,Integer,2,1,0,1,1: Running
+88,Failure,Integer,2,1,0,1,1: Failure
+89,Prefiltering,Integer,2,1,0,1,1: Pre-filtering
+90,Filtering,Integer,2,1,0,1,1: Filtering
+91,Discharge,Integer,2,1,0,1,1: Discharging
+92,Water Flush,Integer,2,1,0,1,1: Water flush
+93,Solution Supply Pump Run Order,Integer,2,1,0,1,1: Ordered from Filter to PLC
+94,Solution Feeding ,Integer,2,1,0,1,Refer to General technical description Sheet P. 423
+95,Spare,Byte,6,,,,
+96,Center Line Speed PV,Integer,2,1,0,600,
+97,TOP Plating Current PV,Integer,2,0.01,0,15000,
+98,TOP Efficiency,Integer,2,1,0,100,
+99,BOT Plating Current PV,Integer,2,0.01,0,15000,
+100,BOT Efficiency,Integer,2,1,0,100,
+101,BASE CURRENT,Integer,2,1,0,10000,
+102,Spare,Byte,10,,,,

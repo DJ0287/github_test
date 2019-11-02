@@ -1,0 +1,5 @@
+No.,NAME OF SIGNAL,Type,Size,Unit,LOWER LIMIT/UPPER LIMIT,,‚q‚d‚l‚`‚q‚j
+1,Sub Header,Integer,2,,,,
+2,Sequence No.,Character,4,,,,
+3,Transmission Time,Character,6,,,,
+4,Spare,Byte,52,,,,

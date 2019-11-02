@@ -1,0 +1,10 @@
+MessageNo,Message Name,Size,L1_INTERFACE
+0,Common HDR,0,IF_L1_HDR
+1,Schedule Data (1)-(10),0,IF_L1_TO_SRS_SCH_M01
+2,Schedule Data (11)-(20),0,IF_L1_TO_SRS_SCH_M02
+3,Measurements,0,IF_L1_TO_SRS_MEASUREMENTS_M03
+4,Setting Value,64,IF_SRS_TO_L1_SETTING_M04
+5,Keep alive message,0,IF_L1_KEEPALIVE
+6,Keep alive message,64,IF_L1_KEEPALIVE
+7,Reply Message,0,IF_L1_REPLY
+8,Reply Message,64,IF_L1_REPLY

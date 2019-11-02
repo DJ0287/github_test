@@ -1,0 +1,18 @@
+No,アラームメッセージ
+1,Level1 Ethernet communication error
+2,Flow rate from Tin replenishing to Cir. Tank error(FT315)
+3,O2 flow rate for Tin replenishing error(FT311)
+4,DP for Tin replenishing error(PT313)
+5,Level for settling tank error(LT321)
+6,Level for Cir. tank error(LT302)
+7,Concentration of Cir. tank error(Tin Ion Analyzer)
+8,Concentration of Cir. tank L(Tin Ion Analyzer)
+9,Sn dissolution compensation ΔS1x excess
+10,Feed pump for Tin replenishing stop(PC-3-A&B)
+11,Cir. pump for Tin replenishing stop(PC-2-A&B)
+12,Calculation error
+13,On-Off Valve for O2 Close(XV311)
+14,Production schedule Nothing
+15,Current for Plating error
+16,Production schedule Data error
+17,Field Data error
